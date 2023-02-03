@@ -5,31 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02306c78-8ec4-4124-b179-a7cafe52e260" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/easy/CommonPrefix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/easy/DuplicateChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/easy/PalindromeNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/easy/RomanLetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/easy/SortedListsMerger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/medium/ReverseInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/medium/ReverseListAdditionner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/easy/CommonPrefixTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/easy/DuplicateCheckerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/easy/PalindromeNumberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/easy/RomanLetterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/easy/SortedListsMergerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/medium/ReverseIntegerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/medium/ReverseListAdditionnerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/at/greil/sydney/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/easy/ValidParenthesesChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/medium/TopVotedCandidate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/easy/ValidParenthesesCheckerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/medium/TopVotedCandidateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/greil/sydney/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,11 +53,20 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "jdk.selected.JAVA_MODULE": "19",
+    "jdk.selected.JAVA_MODULE": "openjdk-19",
     "last_opened_file_path": "C:/Users/Stefan/IdeaProjects/workflow/workflow",
-    "settings.editor.selected.configurable": "preferences.keymap"
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -87,59 +77,12 @@
       <recent name="at.greil.sydney.medium" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="at.greil.sydney.medium" />
       <recent name="at.greil.sydney.easy" />
+      <recent name="at.greil.sydney.medium" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ReverseIntegerTest">
-    <configuration name="ReverseIntegerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leet-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="at.greil.sydney.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="at.greil.sydney.medium" />
-      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.medium.ReverseIntegerTest" />
-      <option name="METHOD_NAME" value="reverseExample1" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseIntegerTest.reverseExample1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leet-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="at.greil.sydney.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="at.greil.sydney.medium" />
-      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.medium.ReverseIntegerTest" />
-      <option name="METHOD_NAME" value="reverseExample1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseListAdditionnerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leet-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="at.greil.sydney.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="at.greil.sydney.medium" />
-      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.medium.ReverseListAdditionnerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortedListsMergerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.sydney in leet-code">
+    <configuration name="ValidParenthesesCheckerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <extension name="coverage">
         <pattern>
@@ -148,14 +91,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="at.greil.sydney.easy" />
-      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.SortedListsMergerTest" />
-      <option name="METHOD_NAME" value="mergeTwoLists" />
+      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.ValidParenthesesCheckerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortedListsMergerTest.mergeTwoLists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidParenthesesCheckerTest.isValidExymple4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <extension name="coverage">
         <pattern>
@@ -164,20 +106,60 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="at.greil.sydney.easy" />
-      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.SortedListsMergerTest" />
-      <option name="METHOD_NAME" value="mergeTwoLists" />
+      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.ValidParenthesesCheckerTest" />
+      <option name="METHOD_NAME" value="isValidExymple4" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidParenthesesCheckerTest.isValidExymple5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leet-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.greil.sydney.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.greil.sydney.easy" />
+      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.ValidParenthesesCheckerTest" />
+      <option name="METHOD_NAME" value="isValidExymple5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidParenthesesCheckerTest.isValidExymple6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leet-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.greil.sydney.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.greil.sydney.easy" />
+      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.ValidParenthesesCheckerTest" />
+      <option name="METHOD_NAME" value="isValidExymple6" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sydney in leet-code" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leet-code" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ReverseIntegerTest" />
-        <item itemvalue="JUnit.ReverseIntegerTest.reverseExample1" />
-        <item itemvalue="JUnit.SortedListsMergerTest" />
-        <item itemvalue="JUnit.SortedListsMergerTest.mergeTwoLists" />
-        <item itemvalue="JUnit.ReverseListAdditionnerTest" />
+        <item itemvalue="JUnit.sydney in leet-code" />
+        <item itemvalue="JUnit.ValidParenthesesCheckerTest" />
+        <item itemvalue="JUnit.ValidParenthesesCheckerTest.isValidExymple6" />
+        <item itemvalue="JUnit.ValidParenthesesCheckerTest.isValidExymple5" />
+        <item itemvalue="JUnit.ValidParenthesesCheckerTest.isValidExymple4" />
       </list>
     </recent_temporary>
   </component>
@@ -189,8 +171,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675159704216</updated>
+      <workItem from="1675373654709" duration="17657000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -218,6 +215,12 @@
           <line>24</line>
           <option name="timeStamp" value="44" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="t==100" language="JAVA" />
+          <url>file://$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/medium/TopVotedCandidate.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
@@ -226,11 +229,10 @@
         <PinnedItemInfo parentTag="at.greil.sydney.easy.ListNode" memberName="val" />
       </pinned-members>
     </pin-to-top-manager>
-    <watches-manager>
-      <configuration name="JUnit">
-        <watch expression="mergedListNode.next.next.next" />
-        <watch expression="expected.next" />
-      </configuration>
-    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/project_sydney$TopVotedCandidateTest_example2.ic" NAME="TopVotedCandidateTest.example2 Coverage Results" MODIFIED="1675413812756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>at.greil.sydney.medium.*</FILTER>
+    </SUITE>
   </component>
 </project>
