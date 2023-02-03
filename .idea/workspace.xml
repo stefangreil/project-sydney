@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02306c78-8ec4-4124-b179-a7cafe52e260" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/easy/ValidParenthesesChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/medium/TopVotedCandidate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/easy/ValidParenthesesCheckerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/medium/TopVotedCandidateTest.java" afterDir="false" />
+    <list default="true" id="02306c78-8ec4-4124-b179-a7cafe52e260" name="Changes" comment="PS-7: solve leetcode problems - TopVoted and ValidParentheses">
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/easy/LastWordLengthChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/easy/LastWordLengthCheckerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/greil/sydney/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,8 +78,8 @@
       <recent name="at.greil.sydney.medium" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.sydney in leet-code">
-    <configuration name="ValidParenthesesCheckerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LastWordLengthCheckerTest">
+    <configuration name="LastWordLengthCheckerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <extension name="coverage">
         <pattern>
@@ -91,13 +88,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="at.greil.sydney.easy" />
-      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.ValidParenthesesCheckerTest" />
+      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.LastWordLengthCheckerTest" />
+      <option name="METHOD_NAME" value="lengthOfLastWord" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidParenthesesCheckerTest.isValidExymple4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LastWordLengthCheckerTest.lengthOfLastWord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <extension name="coverage">
         <pattern>
@@ -106,14 +104,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="at.greil.sydney.easy" />
-      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.ValidParenthesesCheckerTest" />
-      <option name="METHOD_NAME" value="isValidExymple4" />
+      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.LastWordLengthCheckerTest" />
+      <option name="METHOD_NAME" value="lengthOfLastWord" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidParenthesesCheckerTest.isValidExymple5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LastWordLengthCheckerTest.lengthOfLastWordExample2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <extension name="coverage">
         <pattern>
@@ -122,14 +120,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="at.greil.sydney.easy" />
-      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.ValidParenthesesCheckerTest" />
-      <option name="METHOD_NAME" value="isValidExymple5" />
+      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.LastWordLengthCheckerTest" />
+      <option name="METHOD_NAME" value="lengthOfLastWordExample2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidParenthesesCheckerTest.isValidExymple6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LastWordLengthCheckerTest.lengthOfLastWordExample3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <extension name="coverage">
         <pattern>
@@ -138,28 +136,36 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="at.greil.sydney.easy" />
-      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.ValidParenthesesCheckerTest" />
-      <option name="METHOD_NAME" value="isValidExymple6" />
+      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.LastWordLengthCheckerTest" />
+      <option name="METHOD_NAME" value="lengthOfLastWordExample3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sydney in leet-code" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LastWordLengthCheckerTest.lengthOfLastWordExample4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
-      <option name="TEST_OBJECT" value="directory" />
-      <dir value="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.greil.sydney.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.greil.sydney.easy" />
+      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.LastWordLengthCheckerTest" />
+      <option name="METHOD_NAME" value="lengthOfLastWordExample4" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.sydney in leet-code" />
-        <item itemvalue="JUnit.ValidParenthesesCheckerTest" />
-        <item itemvalue="JUnit.ValidParenthesesCheckerTest.isValidExymple6" />
-        <item itemvalue="JUnit.ValidParenthesesCheckerTest.isValidExymple5" />
-        <item itemvalue="JUnit.ValidParenthesesCheckerTest.isValidExymple4" />
+        <item itemvalue="JUnit.LastWordLengthCheckerTest" />
+        <item itemvalue="JUnit.LastWordLengthCheckerTest.lengthOfLastWordExample2" />
+        <item itemvalue="JUnit.LastWordLengthCheckerTest.lengthOfLastWordExample3" />
+        <item itemvalue="JUnit.LastWordLengthCheckerTest.lengthOfLastWordExample4" />
+        <item itemvalue="JUnit.LastWordLengthCheckerTest.lengthOfLastWord" />
       </list>
     </recent_temporary>
   </component>
@@ -171,8 +177,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675159704216</updated>
-      <workItem from="1675373654709" duration="17657000" />
+      <workItem from="1675373654709" duration="22193000" />
     </task>
+    <task id="LOCAL-00001" summary="PS-7: solve leetcode problems - TopVoted and ValidParentheses">
+      <created>1675438832685</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675438832685</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +205,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="PS-7: solve leetcode problems - TopVoted and ValidParentheses" />
+    <option name="LAST_COMMIT_MESSAGE" value="PS-7: solve leetcode problems - TopVoted and ValidParentheses" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -220,6 +236,11 @@
           <url>file://$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/medium/TopVotedCandidate.java</url>
           <line>36</line>
           <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/easy/LastWordLengthChecker.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="81" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
