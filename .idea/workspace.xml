@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02306c78-8ec4-4124-b179-a7cafe52e260" name="Changes" comment="PS-7: solve leetcode problems - TopVoted and ValidParentheses">
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/easy/LastWordLengthChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/easy/LastWordLengthCheckerTest.java" afterDir="false" />
+    <list default="true" id="02306c78-8ec4-4124-b179-a7cafe52e260" name="Changes" comment="PS-7: solve leetcode problems - added LastWordLengthChecker">
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/easy/PivotIndexFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/easy/SumArrayRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/easy/IsomorphicStringsChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/easy/IsomorphicStringsCheckerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/easy/PivotIndexFinderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/easy/SumArrayRunnerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +29,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="PivotIndexFinderTest.pivotIndexExample" />
+    </enabled-run-configurations>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -71,6 +80,7 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="at.greil.sydney.easy" />
       <recent name="at.greil.sydney.medium" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
@@ -78,8 +88,8 @@
       <recent name="at.greil.sydney.medium" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LastWordLengthCheckerTest">
-    <configuration name="LastWordLengthCheckerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.IsomorphicStringsCheckerTest">
+    <configuration name="IsomorphicStringsCheckerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <extension name="coverage">
         <pattern>
@@ -88,14 +98,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="at.greil.sydney.easy" />
-      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.LastWordLengthCheckerTest" />
-      <option name="METHOD_NAME" value="lengthOfLastWord" />
+      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.IsomorphicStringsCheckerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LastWordLengthCheckerTest.lengthOfLastWord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IsomorphicStringsCheckerTest.isIsomorphic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <extension name="coverage">
         <pattern>
@@ -104,14 +113,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="at.greil.sydney.easy" />
-      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.LastWordLengthCheckerTest" />
-      <option name="METHOD_NAME" value="lengthOfLastWord" />
+      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.IsomorphicStringsCheckerTest" />
+      <option name="METHOD_NAME" value="isIsomorphic" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LastWordLengthCheckerTest.lengthOfLastWordExample2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IsomorphicStringsCheckerTest.isIsomorphicExample2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <extension name="coverage">
         <pattern>
@@ -120,14 +129,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="at.greil.sydney.easy" />
-      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.LastWordLengthCheckerTest" />
-      <option name="METHOD_NAME" value="lengthOfLastWordExample2" />
+      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.IsomorphicStringsCheckerTest" />
+      <option name="METHOD_NAME" value="isIsomorphicExample2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LastWordLengthCheckerTest.lengthOfLastWordExample3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IsomorphicStringsCheckerTest.isIsomorphicExample4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <extension name="coverage">
         <pattern>
@@ -136,14 +145,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="at.greil.sydney.easy" />
-      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.LastWordLengthCheckerTest" />
-      <option name="METHOD_NAME" value="lengthOfLastWordExample3" />
+      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.IsomorphicStringsCheckerTest" />
+      <option name="METHOD_NAME" value="isIsomorphicExample4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LastWordLengthCheckerTest.lengthOfLastWordExample4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PivotIndexFinderTest.pivotIndexExample5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <extension name="coverage">
         <pattern>
@@ -152,8 +161,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="at.greil.sydney.easy" />
-      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.LastWordLengthCheckerTest" />
-      <option name="METHOD_NAME" value="lengthOfLastWordExample4" />
+      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.PivotIndexFinderTest" />
+      <option name="METHOD_NAME" value="pivotIndexExample5" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -161,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LastWordLengthCheckerTest" />
-        <item itemvalue="JUnit.LastWordLengthCheckerTest.lengthOfLastWordExample2" />
-        <item itemvalue="JUnit.LastWordLengthCheckerTest.lengthOfLastWordExample3" />
-        <item itemvalue="JUnit.LastWordLengthCheckerTest.lengthOfLastWordExample4" />
-        <item itemvalue="JUnit.LastWordLengthCheckerTest.lengthOfLastWord" />
+        <item itemvalue="JUnit.IsomorphicStringsCheckerTest" />
+        <item itemvalue="JUnit.IsomorphicStringsCheckerTest.isIsomorphicExample4" />
+        <item itemvalue="JUnit.IsomorphicStringsCheckerTest.isIsomorphicExample2" />
+        <item itemvalue="JUnit.IsomorphicStringsCheckerTest.isIsomorphic" />
+        <item itemvalue="JUnit.PivotIndexFinderTest.pivotIndexExample5" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +186,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675159704216</updated>
-      <workItem from="1675373654709" duration="22193000" />
+      <workItem from="1675373654709" duration="31662000" />
     </task>
     <task id="LOCAL-00001" summary="PS-7: solve leetcode problems - TopVoted and ValidParentheses">
       <created>1675438832685</created>
@@ -186,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675438832685</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="PS-7: solve leetcode problems - added LastWordLengthChecker">
+      <created>1675443353445</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675443353445</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,7 +222,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="PS-7: solve leetcode problems - TopVoted and ValidParentheses" />
-    <option name="LAST_COMMIT_MESSAGE" value="PS-7: solve leetcode problems - TopVoted and ValidParentheses" />
+    <MESSAGE value="PS-7: solve leetcode problems - added LastWordLengthChecker" />
+    <option name="LAST_COMMIT_MESSAGE" value="PS-7: solve leetcode problems - added LastWordLengthChecker" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -239,8 +256,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/easy/LastWordLengthChecker.java</url>
-          <line>32</line>
+          <line>44</line>
           <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/easy/SumArrayRunnerTest.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/easy/PivotIndexFinder.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/easy/IsomorphicStringsChecker.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="107" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
