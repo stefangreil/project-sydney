@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02306c78-8ec4-4124-b179-a7cafe52e260" name="Changes" comment="PS-7: solve leetcode problems - added LastWordLengthChecker">
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/easy/PivotIndexFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/easy/SumArrayRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/easy/IsomorphicStringsChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/easy/IsomorphicStringsCheckerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/easy/PivotIndexFinderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/easy/SumArrayRunnerTest.java" afterDir="false" />
+    <list default="true" id="02306c78-8ec4-4124-b179-a7cafe52e260" name="Changes" comment="PS-7: solve more leetcode problems">
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/easy/LinkedListReverser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/easy/MajorityElementChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/easy/SubsequenceChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/medium/FirstStringOccuranceFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/medium/LinkedListCycleFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/medium/ParenthesesGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/easy/LinkedListReverserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/easy/MajorityElementCheckerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/easy/SubsequenceCheckerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/medium/LinkedListCycleFinderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/medium/ParenthesesGeneratorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,18 +27,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="JavaAutoRunManager">
-    <enabled-run-configurations>
-      <run-configuration type="JUnit" name="PivotIndexFinderTest.pivotIndexExample" />
-    </enabled-run-configurations>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -53,28 +53,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "C:/Users/Stefan/IdeaProjects/workflow/workflow",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Stefan/IdeaProjects/workflow/workflow&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -88,23 +88,23 @@
       <recent name="at.greil.sydney.medium" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IsomorphicStringsCheckerTest">
-    <configuration name="IsomorphicStringsCheckerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FirstStringOccuranceFinderTest">
+    <configuration name="FirstStringOccuranceFinderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="at.greil.sydney.easy.*" />
+          <option name="PATTERN" value="at.greil.sydney.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="at.greil.sydney.easy" />
-      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.IsomorphicStringsCheckerTest" />
+      <option name="PACKAGE_NAME" value="at.greil.sydney.medium" />
+      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.medium.FirstStringOccuranceFinderTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsomorphicStringsCheckerTest.isIsomorphic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MajorityElementCheckerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <extension name="coverage">
         <pattern>
@@ -113,14 +113,30 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="at.greil.sydney.easy" />
-      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.IsomorphicStringsCheckerTest" />
-      <option name="METHOD_NAME" value="isIsomorphic" />
+      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.MajorityElementCheckerTest" />
+      <option name="METHOD_NAME" value="majorityElement" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MajorityElementCheckerTest.majorityElement3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leet-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.greil.sydney.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.greil.sydney.easy" />
+      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.MajorityElementCheckerTest" />
+      <option name="METHOD_NAME" value="majorityElement3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsomorphicStringsCheckerTest.isIsomorphicExample2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MajorityElementCheckerTest.majorityElement4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <extension name="coverage">
         <pattern>
@@ -129,14 +145,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="at.greil.sydney.easy" />
-      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.IsomorphicStringsCheckerTest" />
-      <option name="METHOD_NAME" value="isIsomorphicExample2" />
+      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.MajorityElementCheckerTest" />
+      <option name="METHOD_NAME" value="majorityElement4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsomorphicStringsCheckerTest.isIsomorphicExample4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MajorityElementCheckerTest.majorityElement5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <extension name="coverage">
         <pattern>
@@ -145,24 +161,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="at.greil.sydney.easy" />
-      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.IsomorphicStringsCheckerTest" />
-      <option name="METHOD_NAME" value="isIsomorphicExample4" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PivotIndexFinderTest.pivotIndexExample5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leet-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="at.greil.sydney.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="at.greil.sydney.easy" />
-      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.PivotIndexFinderTest" />
-      <option name="METHOD_NAME" value="pivotIndexExample5" />
+      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.MajorityElementCheckerTest" />
+      <option name="METHOD_NAME" value="majorityElement5" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -170,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.IsomorphicStringsCheckerTest" />
-        <item itemvalue="JUnit.IsomorphicStringsCheckerTest.isIsomorphicExample4" />
-        <item itemvalue="JUnit.IsomorphicStringsCheckerTest.isIsomorphicExample2" />
-        <item itemvalue="JUnit.IsomorphicStringsCheckerTest.isIsomorphic" />
-        <item itemvalue="JUnit.PivotIndexFinderTest.pivotIndexExample5" />
+        <item itemvalue="JUnit.FirstStringOccuranceFinderTest" />
+        <item itemvalue="JUnit.MajorityElementCheckerTest" />
+        <item itemvalue="JUnit.MajorityElementCheckerTest.majorityElement5" />
+        <item itemvalue="JUnit.MajorityElementCheckerTest.majorityElement4" />
+        <item itemvalue="JUnit.MajorityElementCheckerTest.majorityElement3" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +186,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675159704216</updated>
-      <workItem from="1675373654709" duration="31662000" />
+      <workItem from="1675373654709" duration="50893000" />
+      <workItem from="1675865683959" duration="10680000" />
     </task>
     <task id="LOCAL-00001" summary="PS-7: solve leetcode problems - TopVoted and ValidParentheses">
       <created>1675438832685</created>
@@ -202,7 +203,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675443353445</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="PS-7: solve more leetcode problems">
+      <created>1675609348754</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675609348754</updated>
+    </task>
+    <task id="LOCAL-00004" summary="PS-7: solve more leetcode problems">
+      <created>1675695754615</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675695754615</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +228,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -223,7 +244,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="PS-7: solve leetcode problems - TopVoted and ValidParentheses" />
     <MESSAGE value="PS-7: solve leetcode problems - added LastWordLengthChecker" />
-    <option name="LAST_COMMIT_MESSAGE" value="PS-7: solve leetcode problems - added LastWordLengthChecker" />
+    <MESSAGE value="PS-7: solve more leetcode problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="PS-7: solve more leetcode problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -270,16 +292,33 @@
           <option name="timeStamp" value="101" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/easy/IsomorphicStringsChecker.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="107" />
+          <url>file://$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/medium/LinkedListCycleFinderTest.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/medium/LinkedListCycleFinder.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/easy/LinkedListReverser.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="229" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/easy/LinkedListReverser.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="235" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
-        <PinnedItemInfo parentTag="at.greil.sydney.easy.ListNode" memberName="next" />
+        <PinnedItemInfo parentTag="at.greil.sydney.medium.ListNode" memberName="val" />
         <PinnedItemInfo parentTag="at.greil.sydney.easy.ListNode" memberName="val" />
+        <PinnedItemInfo parentTag="at.greil.sydney.medium.ListNode" memberName="next" />
+        <PinnedItemInfo parentTag="at.greil.sydney.easy.ListNode" memberName="next" />
       </pinned-members>
     </pin-to-top-manager>
   </component>
