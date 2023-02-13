@@ -5,18 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02306c78-8ec4-4124-b179-a7cafe52e260" name="Changes" comment="PS-7: solve more leetcode problems">
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/easy/LinkedListReverser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/easy/MajorityElementChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/easy/SubsequenceChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/medium/FirstStringOccuranceFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/medium/LinkedListCycleFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/medium/ParenthesesGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/easy/LinkedListReverserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/easy/MajorityElementCheckerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/easy/SubsequenceCheckerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/medium/LinkedListCycleFinderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/medium/ParenthesesGeneratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/easy/MergeSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/medium/AddTwoNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/medium/BinaryTreeOrderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/easy/MergeSortedArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/medium/AddTwoNumbersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/medium/BinaryTreeOrderTraversalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/medium/LinkedListCycleFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/medium/LinkedListCycleFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/medium/LinkedListCycleFinderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/medium/LinkedListCycleFinderTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -53,28 +50,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Stefan/IdeaProjects/workflow/workflow&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "ShowUsagesActions.previewPropertyKey": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "openjdk-19",
+    "last_opened_file_path": "C:/Users/Stefan/IdeaProjects/workflow/workflow",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JSON"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -88,8 +92,8 @@
       <recent name="at.greil.sydney.medium" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FirstStringOccuranceFinderTest">
-    <configuration name="FirstStringOccuranceFinderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MergeSortedArrayTest">
+    <configuration name="AddTwoNumbersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <extension name="coverage">
         <pattern>
@@ -98,13 +102,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="at.greil.sydney.medium" />
-      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.medium.FirstStringOccuranceFinderTest" />
+      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.medium.AddTwoNumbersTest" />
+      <option name="METHOD_NAME" value="addTwoNumbers" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MajorityElementCheckerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MergeSortedArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <extension name="coverage">
         <pattern>
@@ -113,14 +118,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="at.greil.sydney.easy" />
-      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.MajorityElementCheckerTest" />
-      <option name="METHOD_NAME" value="majorityElement" />
+      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.MergeSortedArrayTest" />
+      <option name="METHOD_NAME" value="merge" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MajorityElementCheckerTest.majorityElement3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MergeSortedArrayTest.merge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <extension name="coverage">
         <pattern>
@@ -129,14 +134,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="at.greil.sydney.easy" />
-      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.MajorityElementCheckerTest" />
-      <option name="METHOD_NAME" value="majorityElement3" />
+      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.MergeSortedArrayTest" />
+      <option name="METHOD_NAME" value="merge" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MajorityElementCheckerTest.majorityElement4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MergeSortedArrayTest.merge2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <extension name="coverage">
         <pattern>
@@ -145,14 +150,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="at.greil.sydney.easy" />
-      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.MajorityElementCheckerTest" />
-      <option name="METHOD_NAME" value="majorityElement4" />
+      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.MergeSortedArrayTest" />
+      <option name="METHOD_NAME" value="merge2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MajorityElementCheckerTest.majorityElement5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MergeSortedArrayTest.merge3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <extension name="coverage">
         <pattern>
@@ -161,8 +166,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="at.greil.sydney.easy" />
-      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.MajorityElementCheckerTest" />
-      <option name="METHOD_NAME" value="majorityElement5" />
+      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.MergeSortedArrayTest" />
+      <option name="METHOD_NAME" value="merge3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -170,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FirstStringOccuranceFinderTest" />
-        <item itemvalue="JUnit.MajorityElementCheckerTest" />
-        <item itemvalue="JUnit.MajorityElementCheckerTest.majorityElement5" />
-        <item itemvalue="JUnit.MajorityElementCheckerTest.majorityElement4" />
-        <item itemvalue="JUnit.MajorityElementCheckerTest.majorityElement3" />
+        <item itemvalue="JUnit.MergeSortedArrayTest" />
+        <item itemvalue="JUnit.MergeSortedArrayTest.merge3" />
+        <item itemvalue="JUnit.MergeSortedArrayTest.merge2" />
+        <item itemvalue="JUnit.MergeSortedArrayTest.merge" />
+        <item itemvalue="JUnit.AddTwoNumbersTest" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +192,9 @@
       <option name="presentableId" value="Default" />
       <updated>1675159704216</updated>
       <workItem from="1675373654709" duration="50893000" />
-      <workItem from="1675865683959" duration="10680000" />
+      <workItem from="1675865683959" duration="15255000" />
+      <workItem from="1675938401122" duration="8157000" />
+      <workItem from="1676127387017" duration="18945000" />
     </task>
     <task id="LOCAL-00001" summary="PS-7: solve leetcode problems - TopVoted and ValidParentheses">
       <created>1675438832685</created>
@@ -217,7 +224,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675695754615</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="PS-7: solve more leetcode problems">
+      <created>1675892671860</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675892671860</updated>
+    </task>
+    <task id="LOCAL-00006" summary="PS-7: solve more leetcode problems">
+      <created>1676285348075</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676285348075</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,12 +292,6 @@
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <condition expression="t==100" language="JAVA" />
-          <url>file://$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/medium/TopVotedCandidate.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/easy/LastWordLengthChecker.java</url>
           <line>44</line>
           <option name="timeStamp" value="81" />
@@ -293,7 +308,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/medium/LinkedListCycleFinderTest.java</url>
-          <line>20</line>
+          <line>19</line>
           <option name="timeStamp" value="184" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -311,14 +326,19 @@
           <line>21</line>
           <option name="timeStamp" value="235" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/medium/AddTwoNumbers.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="316" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="at.greil.sydney.medium.ListNode" memberName="val" />
         <PinnedItemInfo parentTag="at.greil.sydney.easy.ListNode" memberName="val" />
-        <PinnedItemInfo parentTag="at.greil.sydney.medium.ListNode" memberName="next" />
         <PinnedItemInfo parentTag="at.greil.sydney.easy.ListNode" memberName="next" />
+        <PinnedItemInfo parentTag="at.greil.sydney.medium.ListNode" memberName="next" />
       </pinned-members>
     </pin-to-top-manager>
   </component>
