@@ -17,7 +17,6 @@ class TopVotedCandidate {
 
     private int[] persons;
     private int[] times;
-
     private HashMap<Integer, Integer> votes;
 
     public TopVotedCandidate(int[] persons, int[] times) {
@@ -25,47 +24,56 @@ class TopVotedCandidate {
         this.times = times;
 
         this.votes = new HashMap<>();
-        for (int p : persons) {
-            votes.put(p, 0);
-        }
     }
 
     public int q(int t) {
-        int voteIndex = 0;
 
+        int momentIndex = 0;
         for (int i = 0; i < times.length; i++) {
-            if (t == times[i]) {
-                voteIndex = i;
-                updateVotes(i);
-                break;
-            } else if (t < times[i] && (i -1) >= 0) {
-                voteIndex = i-1;
-                updateVotes(voteIndex);
+            if (times[i] <= t) {
+                momentIndex = i;
+            } else {
                 break;
             }
         }
 
-        if(t >= times[times.length-1]) {
-            voteIndex = persons[persons.length-1];
+        int[] momentTimes = new int[momentIndex + 1];
+        int[] momentPersons = new int[momentIndex + 1];
+        for (int i = 0; i <= momentIndex; i++) {
+            momentTimes[i] = times[i];
+            momentPersons[i] = persons[i];
         }
 
-        int max = Collections.max(votes.values());
-        List<Integer> keys = new ArrayList<>();
-        for (Map.Entry<Integer, Integer> entry : votes.entrySet()) {
-            if (entry.getValue()==max) {
-                keys.add(entry.getKey());
+        votes = new HashMap<>();
+        for (int p : momentPersons) {
+            if (votes.containsKey(p)) {
+                Integer vote = votes.get(p);
+                votes.put(p, vote + 1);
+            } else {
+                votes.put(p, 1);
             }
         }
 
-        if(keys.size() > 1){
-            return persons[voteIndex];
-        } else {
-            return keys.get(0);
+        int actualKey = 0;
+        int voteMax = 0;
+        for (int i = 0; i < votes.size(); i++) {
+            if(votes.get(i) > voteMax) {
+                actualKey = i;
+                voteMax = votes.get(i);
+            } else if (votes.get(i) == voteMax) {
+                for (int j = momentPersons.length-1; j >= 0; j--) {
+                    if (momentPersons[j] == i) {
+                        actualKey = i;
+                        voteMax = votes.get(i);
+                        break;
+                    }
+                    if (momentPersons[j] == actualKey) {
+                        break;
+                    }
+                }
+            }
         }
+        return actualKey;
     }
 
-    private void updateVotes(int i) {
-        Integer actualCount = votes.get(persons[i]) + 1;
-        votes.replace(persons[i], actualCount);
-    }
 }
