@@ -9,7 +9,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>sanbox-api</artifactId>
+    <artifactId>sandbox-api</artifactId>
 
     <dependencies>
         <dependency>

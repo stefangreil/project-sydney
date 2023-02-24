@@ -4,41 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02306c78-8ec4-4124-b179-a7cafe52e260" name="Changes" comment="PS-7: solve more leetcode problems">
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/easy/SecondHighest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/medium/AtoiStringIntegerConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/easy/SecondHighestTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/medium/AtoiStringIntegerConverterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sanbox-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sanbox-api/src/main/java/at/greil/sydney/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sanbox-api/src/main/java/at/greil/sydney/RacoonDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sanbox-api/src/main/java/at/greil/sydney/configuration/SpringFoxConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sanbox-api/src/main/java/at/greil/sydney/controller/RacoonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sanbox-api/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sandbox-angular/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sandbox-angular/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sandbox-angular/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sandbox-angular/angular.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sandbox-angular/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sandbox-angular/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sandbox-angular/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sandbox-angular/src/app/app.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sandbox-angular/src/app/app.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sandbox-angular/src/app/app.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sandbox-angular/src/app/app.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sandbox-angular/src/app/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sandbox-angular/src/assets/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sandbox-angular/src/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sandbox-angular/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sandbox-angular/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sandbox-angular/src/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sandbox-angular/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sandbox-angular/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sandbox-angular/tsconfig.spec.json" afterDir="false" />
+    <list default="true" id="02306c78-8ec4-4124-b179-a7cafe52e260" name="Changes" comment="PS-X: added Spring boot application and a anagular application to play with">
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/easy/BubbleSorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/easy/QuickSorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/hard/SortedListMerger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/medium/NodeEndListRemover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/medium/NodePairSwitcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/util/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/easy/BubbleSorterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/easy/InsertPositionSearcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/easy/InsertPositionSearcherTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/easy/QuickSorterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/hard/SortedListMergerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/medium/NodeEndListRemoverTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/medium/NodePairSwitcherTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leet-code/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leet-code/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanbox-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanbox-api/src/main/java/at/greil/sydney/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox-api/src/main/java/at/greil/sydney/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanbox-api/src/main/java/at/greil/sydney/RacoonDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox-api/src/main/java/at/greil/sydney/RacoonDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanbox-api/src/main/java/at/greil/sydney/configuration/SpringFoxConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox-api/src/main/java/at/greil/sydney/configuration/SpringFoxConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanbox-api/src/main/java/at/greil/sydney/controller/RacoonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox-api/src/main/java/at/greil/sydney/controller/RacoonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanbox-api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox-api/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +37,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -75,41 +63,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;ShowUsagesActions.previewPropertyKey&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Stefan/IdeaProjects/workflow/workflow&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.rainbow.brackets&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;ba0d37dbb7249ef5d810790a06e0c885&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "ShowUsagesActions.previewPropertyKey": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "19",
+    "last_opened_file_path": "C:/Users/Stefan/IdeaProjects/workflow/workflow",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.rainbow.brackets",
+    "spring.configuration.checksum": "e3346ee68d625f84fc52ad719eb1f39e",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;JSON&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JSON"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -119,93 +107,93 @@
       <recent name="at.greil.sydney.medium" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="at.greil.sydney.medium" />
       <recent name="at.greil.sydney.easy" />
       <recent name="at.greil.sydney.hard" />
+      <recent name="at.greil.sydney.medium" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
-    <configuration name="AtoiStringIntegerConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.InsertPositionSearcherTest">
+    <configuration name="InsertPositionSearcherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="at.greil.sydney.medium.*" />
+          <option name="PATTERN" value="at.greil.sydney.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="at.greil.sydney.medium" />
-      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.medium.AtoiStringIntegerConverterTest" />
+      <option name="PACKAGE_NAME" value="at.greil.sydney.easy" />
+      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.InsertPositionSearcherTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AtoiStringIntegerConverterTest.myAtoiExample2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InsertPositionSearcherTest.searchInsertExample5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="at.greil.sydney.medium.*" />
+          <option name="PATTERN" value="at.greil.sydney.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="at.greil.sydney.medium" />
-      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.medium.AtoiStringIntegerConverterTest" />
-      <option name="METHOD_NAME" value="myAtoiExample2" />
+      <option name="PACKAGE_NAME" value="at.greil.sydney.easy" />
+      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.InsertPositionSearcherTest" />
+      <option name="METHOD_NAME" value="searchInsertExample5" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AtoiStringIntegerConverterTest.myAtoiExample5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InsertPositionSearcherTest.searchInsertExample6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="at.greil.sydney.medium.*" />
+          <option name="PATTERN" value="at.greil.sydney.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="at.greil.sydney.medium" />
-      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.medium.AtoiStringIntegerConverterTest" />
-      <option name="METHOD_NAME" value="myAtoiExample5" />
+      <option name="PACKAGE_NAME" value="at.greil.sydney.easy" />
+      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.InsertPositionSearcherTest" />
+      <option name="METHOD_NAME" value="searchInsertExample6" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AtoiStringIntegerConverterTest.myAtoiExample6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InsertPositionSearcherTest.searchInsertExample7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="at.greil.sydney.medium.*" />
+          <option name="PATTERN" value="at.greil.sydney.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="at.greil.sydney.medium" />
-      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.medium.AtoiStringIntegerConverterTest" />
-      <option name="METHOD_NAME" value="myAtoiExample6" />
+      <option name="PACKAGE_NAME" value="at.greil.sydney.easy" />
+      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.easy.InsertPositionSearcherTest" />
+      <option name="METHOD_NAME" value="searchInsertExample7" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AtoiStringIntegerConverterTest.myAtoiExample7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SortedListMergerTest.mergeKListsExample2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="at.greil.sydney.medium.*" />
+          <option name="PATTERN" value="at.greil.sydney.hard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="at.greil.sydney.medium" />
-      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.medium.AtoiStringIntegerConverterTest" />
-      <option name="METHOD_NAME" value="myAtoiExample7" />
+      <option name="PACKAGE_NAME" value="at.greil.sydney.hard" />
+      <option name="MAIN_CLASS_NAME" value="at.greil.sydney.hard.SortedListMergerTest" />
+      <option name="METHOD_NAME" value="mergeKListsExample2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="sanbox-api" />
+      <module name="sandbox-api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="at.greil.sydney.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -213,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AtoiStringIntegerConverterTest.myAtoiExample7" />
-        <item itemvalue="JUnit.AtoiStringIntegerConverterTest.myAtoiExample5" />
-        <item itemvalue="JUnit.AtoiStringIntegerConverterTest.myAtoiExample6" />
-        <item itemvalue="JUnit.AtoiStringIntegerConverterTest.myAtoiExample2" />
-        <item itemvalue="JUnit.AtoiStringIntegerConverterTest" />
+        <item itemvalue="JUnit.InsertPositionSearcherTest" />
+        <item itemvalue="JUnit.InsertPositionSearcherTest.searchInsertExample7" />
+        <item itemvalue="JUnit.InsertPositionSearcherTest.searchInsertExample6" />
+        <item itemvalue="JUnit.InsertPositionSearcherTest.searchInsertExample5" />
+        <item itemvalue="JUnit.SortedListMergerTest.mergeKListsExample2" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +224,8 @@
       <workItem from="1676391956770" duration="13721000" />
       <workItem from="1676408362993" duration="10105000" />
       <workItem from="1676992050687" duration="7902000" />
-      <workItem from="1676999980991" duration="2926000" />
+      <workItem from="1676999980991" duration="16168000" />
+      <workItem from="1677238318927" duration="7093000" />
     </task>
     <task id="LOCAL-00001" summary="PS-7: solve leetcode problems - TopVoted and ValidParentheses">
       <created>1675438832685</created>
@@ -294,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676406505949</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="PS-X: added Spring boot application and a anagular application to play with">
+      <created>1677008617218</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677008617218</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,7 +318,8 @@
     <MESSAGE value="PS-7: solve leetcode problems - TopVoted and ValidParentheses" />
     <MESSAGE value="PS-7: solve leetcode problems - added LastWordLengthChecker" />
     <MESSAGE value="PS-7: solve more leetcode problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="PS-7: solve more leetcode problems" />
+    <MESSAGE value="PS-X: added Spring boot application and a anagular application to play with" />
+    <option name="LAST_COMMIT_MESSAGE" value="PS-X: added Spring boot application and a anagular application to play with" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -416,6 +413,51 @@
           <url>file://$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/medium/AtoiStringIntegerConverter.java</url>
           <line>29</line>
           <option name="timeStamp" value="360" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/medium/NodePairSwitcher.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="373" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/medium/NodeEndListRemover.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="374" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/medium/NodeEndListRemover.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="381" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/medium/NodeEndListRemover.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="384" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/medium/NodeEndListRemover.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="385" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/medium/NodeEndListRemover.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="386" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leet-code/src/main/java/at/greil/sydney/hard/SortedListMerger.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="395" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/easy/InsertPositionSearcher.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="404" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leet-code/src/test/java/at/greil/sydney/easy/InsertPositionSearcher.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="405" />
         </line-breakpoint>
         <breakpoint type="java-exception">
           <properties class="java.lang.TypeNotPresentException" package="java.lang" />

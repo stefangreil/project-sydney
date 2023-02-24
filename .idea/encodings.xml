@@ -3,9 +3,9 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/leet-code/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/leet-code/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sanbox-api/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sanbox-api/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sandbox-angular/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sandbox-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sandbox-api/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

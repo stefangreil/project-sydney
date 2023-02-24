@@ -17,7 +17,7 @@
 
     <modules>
         <module>leet-code</module>
-        <module>sanbox-api</module>
+        <module>sandbox-api</module>
         <module>sandbox-angular</module>
     </modules>
 
